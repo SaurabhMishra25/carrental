@@ -10,7 +10,6 @@ app.use(cors())
 app.get('/',(req,res)=>{  res.send("hello from server")})
 //http://localhost:1000/create-payment-intent
 app.post("/create-payment-intent", async (req, res) => {
-  console.log(req.body)
   const { amount,details } = req.body;
   const paymentIntent = await stripe.paymentIntents.create({
     amount:amount * 100,

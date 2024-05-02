@@ -40,19 +40,14 @@ const Sidebar = () => {
                 {/*  <!-- Divider --> */}
                 <hr className="sidebar-divider" />
 
-                {/*   <!-- Heading --> */}
-                <div className="sidebar-heading">
-                    Interface
-                </div>
-
                 {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
                       <i class="fas fa-car"></i>
                         <span>Brand</span>
                     </a>
-                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <Link className="collapse-item" to="/admin/AddBrand">Add</Link>
                             <Link className="collapse-item" to='/admin/viewbrand'>View </Link>
@@ -65,13 +60,13 @@ const Sidebar = () => {
 
                 {/* <!-- Nav Item - Utilities Collapse Menu --> */}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseUtilities"
                         aria-expanded="true" aria-controls="collapseUtilities">
                         <i className="fas fa-fw fa-wrench"></i>
                         <span>Models</span>
                     </a>
                     <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
-                        data-parent="#accordionSidebar">
+                        data-bs-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <Link className="collapse-item" to='/admin/addmodel'>Add</Link>
                             <Link className="collapse-item" to='/admin/viewmodel'>View</Link>
@@ -96,12 +91,12 @@ const Sidebar = () => {
 
                 {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                 {/* <li className="nav-item">
-                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                         aria-expanded="true" aria-controls="collapsePages">
                         <i className="fas fa-fw fa-folder"></i>
                         <span>Pages</span>
                     </a>
-                    <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-bs-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <h6 className="collapse-header">Login Screens:</h6>
                             <a className="collapse-item" href="login.html">Login</a>
