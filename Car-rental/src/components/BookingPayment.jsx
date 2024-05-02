@@ -13,7 +13,7 @@ const BookingPayment = () => {
     const amount=useSelector(selectTotalPrice)
     const details=useSelector(selectbooking)
     useEffect(() => {
-        fetch("http://localhost:1000/create-payment-intent", {
+        fetch("https://server-one-flax.vercel.app/create-payment-intent", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ amount:amount,details:details}),
