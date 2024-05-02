@@ -10,19 +10,19 @@ app.use(cors())
 app.get('/',(req,res)=>{  res.send("hello from server")})
 //http://localhost:1000/create-payment-intent
 app.post("/create-payment-intent", async (req, res) => {    
-  const { amount , Details} = req.body;
+  const { amount , details} = req.body;
   const paymentIntent = await stripe.paymentIntents.create({
     amount:amount * 100,
     currency: "usd",
-    // description:"car rental",
+    description:"car rental",
     automatic_payment_methods: {
       enabled: true,},
-      // shipping:{
-      //   address:{
-      //       line1:"aaa", line2:"aaa",
-      //       city:"Ahmedabad", state:"Gujrat",
-      //       country:"US" },
-      //   name:details.name,phone:details.mobile  }
+      shipping:{
+        address:{
+            line1:"aaa", line2:"aaa",
+            city:"Ahmedabad", state:"Gujrat",
+            country:"US" },
+        name:details.name,phone:details.mobile  }
 })
   res.send({
     clientSecret: paymentIntent.client_secret});
