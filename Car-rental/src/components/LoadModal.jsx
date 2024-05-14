@@ -13,21 +13,21 @@ const LoadModal = ({close}) => {
         centered>
 
         <Modal.Body>
-          <h2> Login 
+          <h2>  
         <span variant="secondary" className='float-end fs-4' 
         style={{cursor:'pointer'}} onClick={()=>close()}>
             X
           </span></h2><br/>
-          <div>
+          {/* <div>
                 I will not close if you click outside me. Do not even try to press
                 escape key.
-          </div>
+          </div> */}
             <br/>
+{/* 
           <Button variant="secondary" className='float-end me-2' onClick={()=>close()}>
             Close
           </Button>
-          <Button variant="primary" className='float-end me-2'>Understood</Button>
-        
+          <Button variant="primary" className='float-end me-2'>Understood</Button> */}
         </Modal.Body>
       </Modal>
     , document.getElementById('modal')

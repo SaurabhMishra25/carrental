@@ -5,11 +5,15 @@ import { FaArrowAltCircleLeft } from 'react-icons/fa';
 import { FaCircleArrowRight } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import './MySlider.css'
+import Car1 from '/src/assets/car1.jpg'
+import Car2 from '/src/assets/car2.jpg'
+import Car3 from '/src/assets/car5.jpg'
+
 const MySlider = () => {
   const allSliders=[
-    {id:'1',url:'/src/assets/car1.jpg'},
-    {id:'2',url:'/src/assets/car2.jpg'},
-    {id:'3',url:'/src/assets/car5.jpg'}
+    {id:'1',url:Car1},
+    {id:'2',url:Car2},
+    {id:'3',url:Car3}
   ]
 
   return (

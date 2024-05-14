@@ -15,7 +15,7 @@ const quickLinks = [
   },
 
   {
-    path: "/polocy",
+    path: "/policy",
     display: "Policy",
   },
 
@@ -52,12 +52,12 @@ const UFooter = () => {
                 </Link>
               </h1>
             </div>
-            <p className="footer__logo-content">
+            {/* <p className="footer__logo-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
               quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
               Delectus et ad illo recusandae temporibus?
-            </p>
+            </p> */}
           </Col>
 
           <Col lg="2" md="4" sm="6">

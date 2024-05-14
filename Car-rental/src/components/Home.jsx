@@ -4,6 +4,7 @@ import About from './About'
 import Services from './Services'
 import Cars from './Cars'
 import FindCarForm from './FindCarForm'
+import Policy from './Policy'
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
     <FindCarForm/>
     <About/>
     <Services/>
+    <Policy/>
     <Cars/>
     </>
   )

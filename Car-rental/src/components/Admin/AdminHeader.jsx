@@ -6,6 +6,7 @@ import Sidebar from './Sidebar';
 import '../../assets/admin/vendor/fontawesome-free/css/all.min.css'
 import "../../assets/admin/css/sb-admin-2.css"
 import {Outlet} from 'react-router-dom'
+import { Logout } from '../hiddenlinks';
 
 const AdminHeader = () => {
   return (
@@ -25,8 +26,8 @@ const AdminHeader = () => {
             <i className="fas fa-angle-up"></i>
         </a>
 
-        {/*  <!-- Logout Modal--> */}
-        {/* <div className="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         {/* <!-- Logout Modal--> */}
+        <div className="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div className="modal-dialog" role="document">
                 <div className="modal-content">
@@ -43,7 +44,7 @@ const AdminHeader = () => {
                     </div>
                 </div>
             </div>
-        </div> */}
+        </div>
     </div>
   )
 }

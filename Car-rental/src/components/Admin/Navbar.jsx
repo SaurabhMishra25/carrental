@@ -44,7 +44,7 @@ const Navbar = () => {
                             {/*  <!-- Nav Item - Search Dropdown (Visible Only XS) --> */}
                             <li className="nav-item dropdown no-arrow d-sm-none">
                                 <a className="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i className="fas fa-search fa-fw"></i>
                                 </a>
                                 {/*   <!-- Dropdown - Messages --> */}
@@ -68,7 +68,7 @@ const Navbar = () => {
                             {/*  <!-- Nav Item - Alerts --> */}
                             {/* <li className="nav-item dropdown no-arrow mx-1">
                                 <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i className="fas fa-bell fa-fw"></i>
                                    
                                     <span className="badge badge-danger badge-counter">3+</span>
@@ -119,7 +119,7 @@ const Navbar = () => {
                             {/*  <!-- Nav Item - Messages --> */}
                             {/* <li className="nav-item dropdown no-arrow mx-1">
                                 <a className="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i className="fas fa-envelope fa-fw"></i>
                                     
                                     <span className="badge badge-danger badge-counter">7</span>
@@ -187,7 +187,7 @@ const Navbar = () => {
                             {/* <!-- Nav Item - User Information --> */}
                             <li className="nav-item dropdown no-arrow">
                                 <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span className="mr-2 d-none d-lg-inline text-gray-600 small">{username}</span>
                                     {/* <img className="img-profile rounded-circle"
                                         src="img/undraw_profile.svg" /> */}
@@ -209,7 +209,7 @@ const Navbar = () => {
                                         Activity Log
                                     </a> */}
                                     <div className="dropdown-divider"></div>
-                                    {/* <a className="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    {/* <a className="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">
                                         <i className="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                         Logout
                                     </a> */}

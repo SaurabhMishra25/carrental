@@ -55,7 +55,7 @@ const BookingDetails = () => {
                     <Col>
                       <Form.Group className='mb-3'>
                       <Form.Label>license Card No</Form.Label>
-                      <Form.Control type="number" value={bookingdetails.license}
+                      <Form.Control  value={bookingdetails.license}
                     onChange={(e)=>setBookingDetails({...bookingdetails,license:e.target.value})}></Form.Control>
                       </Form.Group>
                     </Col>

@@ -68,7 +68,7 @@ const Header = () => {
   console.log(rented)
 
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" bg="dark " data-bs-theme="dark" >
       <Container fluid>
         <Navbar.Brand href="">
             <Image new src={logo} width={50} height={50}/>

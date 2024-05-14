@@ -1,8 +1,8 @@
 .modal-body {
-  background-image: url('/src/assets/modalimg.png');
+  background-image: url('/src/assets/modalimg2.png');
   background-repeat: no-repeat;
     background-size: cover;
-    /* height: 40vh; */
+    height: 40vh;
 }
 
 

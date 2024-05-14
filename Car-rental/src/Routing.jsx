@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         { path:"about", element:<UserLayout> <About/> </UserLayout>},
         { path:"cars", element:<UserLayout> <Cars/> </UserLayout>},
         { path:"services", element:<UserLayout> <Services/> </UserLayout>},
-        { path:"policy", element:<Policy/>},
+        { path:"policy", element:<UserLayout> <Policy/> </UserLayout>},
         { path:"contact", element:<UserLayout> <Contact/> </UserLayout>},
         { path:"login", element:<Login/>},
         { path:"register", element:<Register/>},
